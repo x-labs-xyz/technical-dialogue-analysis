@@ -1,6 +1,10 @@
 # Technical Dialogue Analysis in Human-LLM Programming Interactions
 
-Code and data accompanying the ACL 2024 submission "Mapping Cognitive Load in Human-LLM Programming Dialogues: A Multimodal Analysis of Technical Discourse Patterns"
+This repository contains the code and data for the ACL 2024 submission "Mapping Cognitive Load in Human-LLM Programming Dialogues: A Multimodal Analysis of Technical Discourse Patterns".
+
+## Overview
+
+We present a multimodal analysis of human-LLM interactions in programming contexts, examining how dialogue complexity and user expertise influence cognitive processing patterns. The repository includes eye-tracking data, dialogue transcripts, and analysis code.
 
 ## Dataset Description
 
