@@ -18,8 +18,8 @@ The anonymized dataset comprises 444 programming dialogues collected from univer
 ### Dialogue Data
 - Total interactions: 444
 - Dialogue themes distribution:
-  - Output Formatting (33.78%)
-  - Pattern Programming (16.44%)
+  - Output Formatting 
+  - Pattern Programming 
   - Logic Building
   - Data Structures
   - Debugging
