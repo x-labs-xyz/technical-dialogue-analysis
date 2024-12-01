@@ -49,7 +49,7 @@ The anonymized dataset comprises 444 programming dialogues collected from univer
 
 ## Data Access
 
-The anonymized dataset used in this study will be made publicly available upon paper acceptance.
+The anonymized dataset used in this study will be made publicly available upon paper acceptance. The data dictionary however, is available in the data folder.
 
 ## Note
 
