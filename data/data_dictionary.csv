@@ -1,0 +1,55 @@
+Column Name,Description,Value Encoding,Data Type
+NetID,Student identifier,Alphanumeric ID,str
+Gender,Gender of respondent,"0 = Male, 1 = Female",int
+Age,Age of respondent,Numeric age,int
+ACYear,Academic year,"2 = Second, 3 = Third, 4 = Fourth, 5 = Fifth",int
+Difficulty,Task difficulty rating,Likert scale,float
+DifficultyWTTools,Task difficulty rating without tools (non-GPT),Likert scale,float
+DifficultyWTools,Task difficulty rating with tools (non-GPT),Likert scale,float
+DifficultyWGPT,Task difficulty rating with ChatGPT,Likert scale,float
+Confidence,Confidence level in programming,Likert scale,float
+Student,Whether the respondent is a student,"0 = No, 1 = Yes",int
+Major,Major of the respondent,"1 = Computer Science Major, 2 = Engineering Major, 3 = Social Science Major",int
+YearsProgramming,Years of programming experience,"0.5 = <6 months, 1 = 6 months-1 year, 3 = 2-3 years, 4 = 4 years, 6 = +4 years",float
+ProgrammingFrequency,Frequency of programming,"0 = Never, 2 = Other, 3 = Monthly, 4 = Weekly, 5 = Daily",int
+Gaze Calibration,Calibration quality of eye-tracking,"4 = Good, 5 = Excellent",int
+AOI,"Area of Interest (1 = ChatGPT, 0 = Colab)","1 = ChatGPT, 0 = Colab",int
+Duration_ms,Duration of gaze in milliseconds,Milliseconds,int
+Exercise,Exercise identifier,Numeric ID for exercise,int
+StartTime_ms,Start time in milliseconds,Milliseconds,int
+Duration,Total duration in milliseconds,Valid/Invalid,int
+DataValidity,Data validity flag,Pixels squared,int
+Size_px2,Size in pixels squared,Centimeters squared,float
+Size_cm2,Size in centimeters squared,Percentage,float
+Size_percentage,Size as a percentage,Count,float
+Dwell_count,Number of dwells,Count,int
+Revisit_count_gaze,Number of gaze revisits,Numeric identifier,int
+Hit_sequence,Hit sequence identifier,Milliseconds,int
+Hit_time_AOI,Hit time on AOI,Milliseconds,int
+Dwell_time_gaze_ms,Gaze dwell time in milliseconds,Percentage,int
+Dwell_time_gaze_percentage,Gaze dwell time as a percentage,Milliseconds,float
+First_dwell_duration,First dwell duration,Milliseconds,int
+Last_dwell_duration,Last dwell duration,Count,float
+Skip_count,Number of skips,Count,float
+Dwells_with_fixations,Dwells containing fixations,Count,int
+Revisit_count_fixation_dwells,Number of fixation revisit counts,Milliseconds,int
+Fixation_count,Number of fixations,Milliseconds,float
+TTFF_sequence,Time to first fixation sequence,Milliseconds,float
+TTFF_AOI,Time to first fixation on AOI,Milliseconds,float
+Dwell_time_fixation_ms,Fixation dwell time in milliseconds,Count,float
+Dwell_time_fixation_percentage,Fixation dwell time as a percentage,Milliseconds,float
+Duration_average_fixation,Duration of average fixation,Milliseconds,float
+First_fixation_duration,First fixation duration,Milliseconds,float
+Last_fixation_duration,Last fixation duration,Milliseconds,int
+Dispersion_avg_fixation,Dispersion of average fixation,Milliseconds,float
+Dwells_with_saccades,Number of saccades,Milliseconds,float
+Saccade_count,Saccade count,Milliseconds,float
+Duration_avg_saccade,Duration of average saccade,Milliseconds,float
+Amp_avg_saccade,Amplitude of average saccade,Milliseconds,float
+Peak_velocity_avg_saccade,Peak velocity of average saccade,Milliseconds,float
+Peak_acceleration_avg_saccade,Peak acceleration of average saccade,Milliseconds,float
+Peak_deceleration_avg_saccade,Peak deceleration of average saccade,Milliseconds,float
+Direction_avg_saccade,Direction of average saccade,Degrees,int
+Mouse_click_cnt,Number of mouse clicks,Count,int
+Student_prompt,The prompts that the Student has inputted ,Text . if text is null,string
+ChatGPT_answer,ChatGPT's conversational answers,Text . if text is null,string
